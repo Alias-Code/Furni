@@ -1,0 +1,149 @@
+@media screen and (max-width: 1000px) {
+  /* GLOBAL */
+
+  #light-svg,
+  #green-svg,
+  #yellow-svg,
+  .first-part-1,
+  .five-part-1 {
+    display: none;
+  }
+
+  .six-part p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .six-part-1,
+  .six-part-2,
+  .six-part-3,
+  .third-part,
+  .third-part-2 article,
+  .third-part button {
+    margin-bottom: 3em;
+  }
+
+  footer,
+  main,
+  .eleven-part-2 {
+    text-align: center;
+  }
+
+  .green-circle {
+    left: 50%;
+  }
+
+  .first-part-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #first-hr {
+    width: 100%;
+  }
+
+  .second-part-1 {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .third-part .green-card {
+    bottom: -15%;
+  }
+
+  .nine-part input {
+    margin-bottom: 0.5em;
+  }
+
+  .nine-part button {
+    margin-left: 1em;
+  }
+
+  .third-part img {
+    width: 90%;
+    height: 70%;
+  }
+
+  #arrow-1 {
+    right: 80%;
+  }
+
+  #arrow-2 {
+    left: 80%;
+  }
+
+  #new-img {
+    display: flex;
+    margin-top: 2em;
+    border-radius: 25px;
+  }
+
+  #first-hr {
+    margin-top: 2em;
+  }
+
+  /* MENU BURGER */
+
+  #burger-menu,
+  #first-hr {
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+  }
+
+  #burger-menu {
+    font-size: 2em;
+  }
+
+  #home {
+    border-bottom: 0;
+  }
+
+  /* .first-part-2 div {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  .first-part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+  }
+
+  .second-part {
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    background-color: #3b5d50;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .second-part-1,
+  .second-part-2,
+  .third-part {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  nav .links:before {
+    height: 0;
+    width: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    text-align: left;
+  }
+
+  .second-part-1 {
+    margin-top: 2em;
+  }
+}
